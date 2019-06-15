@@ -1,12 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html, body{
     width:100%;
     height:100%;
     font-size: 14px;
     font-weight: normal;
+    
 }
 .background{
     width: 100%;
@@ -19,6 +21,7 @@ html, body{
 .container{
     width: 80%;
     margin: 0 auto;
+    
 }
 header{
     background-color: #ffffff
@@ -55,34 +58,29 @@ h1{
    text-align: center;
    color: #ffffff;
 }
-.content h2{
-background: #ffffff;
-padding: 10px;
-border-radius:  5px;
-margin-bottom: 20px;
-overflow: auto;
-border-bottom: 3px solid #cccccc
-
-}
-.content article{
-    float: right;
+h2{
+    float: left;
     width: 80%;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 5px;
-    min-height: 100px;
-    position: relative;
+    background: #ffffff
 }
-.content aside{
-    float:left;
-    width: 40%;
-    height: 200px;
+.gallery{
+    border:2px solid #cccccc;
 }
-img{
-    transform: rotate(180deg)
+.gallery img{
+    width: 100%;
+    height: auto;
 }
-.me{
-    width: 150px;
+.info{
+    padding: 15px;
+    text-align: center;
+    background: teal;
+    color: #ffffff;
+    border-top: 5px solid #777777;
+}
+.responsive{
+    padding :0 6px;
+    float: left;
+    width: 30%;
 }
 footer{
     position: absolute;
