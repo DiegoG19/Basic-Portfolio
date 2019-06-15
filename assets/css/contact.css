@@ -7,6 +7,7 @@ html, body{
     height:100%;
     font-size: 14px;
     font-weight: normal;
+    
 }
 .background{
     width: 100%;
@@ -19,6 +20,7 @@ html, body{
 .container{
     width: 80%;
     margin: 0 auto;
+    
 }
 header{
     background-color: #ffffff
@@ -55,31 +57,40 @@ h1{
    text-align: center;
    color: #ffffff;
 }
-.content h2{
-background: #ffffff;
-padding: 10px;
-border-radius:  5px;
-margin-bottom: 20px;
-overflow: auto;
-border-bottom: 3px solid #cccccc
+.contact-sheet{
+    width: 80%;
+    max-width: 600px;
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding:  30px 40px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.contact-sheet h2{
+    width: 100%;
+    height: 30px;
+    border-bottom: 3px solid #cccccc
+}
+.textbox{
+    margin: 10px 0;
+    padding: 10px 15px;
+}
+.textbox input,.textbox textarea{
+    width: 100%;
+    border: 2px solid #cccccc;
 
 }
-.content article{
-    float: right;
-    width: 80%;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 5px;
-    min-height: 100px;
-    position: relative;
-}
-.content aside{
-    float:left;
-    width: 40%;
-    height: 200px;
-}
-.me{
-    width: 150px;
+.btn{
+    display: inline-block;
+    background: teal;
+    padding: 10px 0;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 30%;
 }
 footer{
     position: absolute;
@@ -93,3 +104,7 @@ footer{
     border-top: 3px solid teal;
     text-align: center;
 }
+
+
+
+
